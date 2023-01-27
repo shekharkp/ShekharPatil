@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width = device-width, initial-scale=0.0">
+       <title>Shekhar patil resume</title>
+       <link rel="stylesheet" href="main.css">
+       <link rel="stylesheet" media="screen and (max-width:530px)" href="mobile.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Allerta+Stencil&family=Gugi&family=Lilita+One&family=Merienda+One&family=Righteous&family=Viga&display=swap&family=Fira+Sans:wght@300&family=Gugi&family=Merienda+One&family=Montse&family=Quicksand:wght@300" rel="stylesheet">    
+       <script src="https://unpkg.com/scrollreveal@4"></script>  
+
+    </head>
+   
+    <body bgcolor="black">
+    <section class="navbar">
+            <ul>
+                <li> <a href="#Profile">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </section>
+    <section id="Profile">
+        <img id="main_profile" src="background.jpg">
+        <img id="main_image" src="shekhar1.png">
+        <div class="name">
+           <h2>Hello i'm</h2>
+           <h1>Shekhar</h1>
+           <h1 id="surname">Patil</h1>
+        </div>
+    </section>
+    <section id="aboutme">
+        <h1>About Me</h1>
+        <div class="parent">
+            <img src="aboutme.png">
+            <div class="section">
+                <h3>
+                    Hey,i'm Shekhar Patil,highly motivated software developer, mobile applications 
+                    and Game developer.Proficient in a variety of programming languages, 
+                    including Java, Dart, Python, Html, Css, PHP, and C#, 
+                    with a focus on building scalable and user-friendly applications.
+                    Also worked with mysql database in my project.
+                    I am a continuous learner, always looking for ways to improve my skills 
+                    and stay up-to-date on the latest technologies.
+                    In my free time,I am excited to join a team where I can use my skills 
+                    and experience to create innovative solutions and make a meaningful impact.
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h1>Projects</h1>
+        <div class="Project">
+
+            <img class="astr" src="astronaut.png" alt="">
+            <div class="card1">
+               <img src="Gaameimg.jpg">
+               <h1>Car Hill Driving Simulator</h1>
+               <h3>
+                    Car hill driving simulator is an Mobile game developed in Unity game engine.
+                    This game is developed by using C# language,Gyroscope mechanism,and input system of unity.
+                    Also it's integrated with Unity ads,Unity analysis tool to analyse players progress.
+                    This game is developed by solely me with third party assets.  
+               </h3>
+            </div>
+        </div>
+       <!--Afterprojects.txt-->
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1><br>
+        <div class="details">
+             <form action="https://formsubmit.co/shekharkp555@gmail.com" method="POST">
+                <div class="Name">
+                    <input type="text" id="Name" placeholder="Your name" name="Name" required><br>
+                </div>
+                <div class="Email">
+                    <input type="email" id="email" placeholder="email" name="email" required><br>
+                 </div>  
+                 <div class="Massage">
+                    <input type="textarea" id="massage" placeholder="Massage" name="Massage" required><br>
+                 </div> 
+                 <div class="submit">
+                    <input type="submit" id="submit" name="submit"><br>
+
+                 </div>
+             </form> 
+        </div>
+        <div class="Socials">
+            <h1>Socials</h1>
+          <div class="social_logo">
+            <div class="profile"><h3><a href="https://www.linkedin.com/in/shekhar-patil-487825193">Linkedin</a></h3></div>
+            <div class="profile"><h3><a href="https://instagram.com/shekhar___patil?igshid=yzg5MTU1MDY=">Instagram</a></h3></div>
+            <div class="profile"><h3><a href="https://github.com/shekharkp">Github</a></h3></div>
+          </div>
+        </div>
+    </section>
+    <script>
+        //scroll animation
+        //nav bar
+        ScrollReveal().reveal('.navbar',{delay : 500,distance:'20px',easing: 'ease-in'});
+
+
+        //Profile
+        ScrollReveal().reveal('#Profile',{delay : 500,easing: 'ease-in',reset : true});
+        
+
+        //About me
+        ScrollReveal().reveal('.parent',{delay : 500,distance:'20px',easing: 'ease-in',reset : true});
+
+        ScrollReveal().reveal('#aboutme',{delay : 500,distance:'20px',easing: 'ease-in',reset : true});
+
+
+        //Projects
+        ScrollReveal().reveal('#Projects',{delay : 500,distance:'10px',easing: 'ease-in',reset : true});
+
+        ScrollReveal().reveal('.card1',{delay : 500,distance:'10px',easing: 'ease-in',reset : true});
+
+        ScrollReveal().reveal('.card2',{delay : 500,distance:'10px',easing: 'ease-in',reset : true});
+
+        //contact
+        ScrollReveal().reveal('#contact',{delay : 500,distance:'10px',easing: 'ease-in',reset : true});
+	</script>
+   </body>
+</html>

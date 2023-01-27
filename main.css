@@ -1,0 +1,500 @@
+/*
+font-family: 'Aclonica', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Gugi', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Merienda One', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Viga', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 300px;
+    margin-top: 0px;
+
+  
+}
+.navbar ul li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   padding-left: 10%;
+   padding-top: 3%;
+   font-size: 26px;
+   font-family: 'Quicksand', sans-serif;
+}
+
+
+.navbar ul li a
+{   
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar ul li a:active
+{
+    font-size: 29px;
+    color: rgb(247, 169, 60);
+
+}
+
+
+/*Profile*/
+
+#Profile 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    height: 759px;
+    margin-bottom: 50px;
+    z-index: -1;
+}
+
+#main_profile
+{
+    position: absolute;
+    top: 0;
+    height: 800px;
+    width: 100%;
+    opacity: 30%;
+    transition: 1s;
+}
+
+#main_profile:hover
+{
+    height: 820px;
+    width: 103%;
+}
+
+#main_image
+{
+   
+    width: 500px;
+    height: 750px;
+    top: 7%;
+    left: 60%;
+    opacity: 75%;
+
+}
+
+#Profile .name
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    
+}
+
+#Profile .name h2
+{
+    font-size: 40px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#Profile .name h1
+{
+    font-size: 130px;
+    color: rgb(247, 169, 60);
+    transition: all 1s ease;
+    font-family: 'Gugi', cursive;
+    z-index: 99;
+}
+
+#Profile .name:hover h1
+{
+    color: rgb(93, 144, 232);
+    font-size: 140px;
+}
+
+#Profile .name #surname
+{
+    font-size: 130px;
+    color: white;
+    font-family: 'Gugi', cursive;
+}
+
+/*About me*/
+
+#aboutme
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#aboutme h1
+{
+    
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#aboutme .parent
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+       
+}
+#aboutme .parent img
+{
+    height: 550px;
+    width: 500px;
+    opacity: 70%;
+    margin: 20px;
+    padding-right: 10%;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    transition: 1s;
+}
+#aboutme .parent img:hover
+{
+    height: 580px;
+    width : 530px;
+}
+
+
+#aboutme .parent .section
+{
+    color: cornflowerblue;
+    height: 550px;
+    width: 850px;
+    background-color: rgb(2, 8, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    top: 50px;
+    margin-bottom: 60px;
+}
+#aboutme .parent .section h3
+{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    transition: 1s;
+    font-size: 23px;
+}
+
+#aboutme .parent .section:hover h3
+{
+  
+    font-size: 25px;
+
+}
+
+/*Projects*/
+
+#Projects
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Projects .Project
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+
+} 
+#Projects h1
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: 'Allerta Stencil', sans-serif;
+    
+}
+#Projects .Project .astr
+{
+    height: 400px;
+    width: 400px; 
+    animation: astranim 3s infinite;
+}
+
+#Projects .Project .spaceship
+{
+    height: 400px;
+    width: 400px;
+    animation: astranim 3s infinite;
+}
+
+
+@keyframes astranim
+{
+    0%{
+     
+      transform: translateY(0px);
+    }
+    50%
+    {
+        
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+
+
+
+#Projects .Project .card1
+{
+    height: 520px;
+    width: 700px;
+    background-color: rgb(2, 8, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+#Projects .Project .card1 img{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+#Projects .Project .card1:hover img
+{
+
+    height: 220px !important;
+    width: 370px !important;
+
+}
+
+#Projects .Project .card1 h1
+{
+    font-size: 30px;
+    color: rgb(149, 181, 240);
+    margin-bottom: 20px;
+    font-family: 'Viga', sans-serif;
+}
+
+#Projects .Project .card1 h3
+{
+    color: cornflowerblue;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Projects .Project .card2
+{
+    height: 520px;
+    width: 700px;
+    background-color: rgb(2, 8, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#Projects .Project .card2 img{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+#Projects .Project .card2:hover img
+{
+    height: 220px !important;
+    width: 370px !important;
+}
+
+#Projects .Project .card2 h1
+{
+    font-size: 30px;
+    color: rgb(149, 181, 240);
+    margin-bottom: 20px;
+}
+
+#Projects .Project .card2 h3
+{
+    color: cornflowerblue;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Contact*/
+
+#contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+#contact .detail
+{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(226, 229, 240);
+    border-radius: 10px;
+    top: 50px;
+    margin-bottom: 60px;
+}
+
+#contact h1
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#contact .details form
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30pxpx;
+}
+
+#contact .details form .Name input
+{
+    padding:10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    border-color: rgb(28, 231, 41);
+    border-width: 3.5px;
+    border-radius: 10px;
+    text-align: center;  
+}
+
+#contact .details form .Massage input
+{
+    padding:10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    border-color: rgb(28, 231, 41);
+    border-width: 3.5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact .details form .Email input
+{
+    padding:10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    border-color: rgb(28, 231, 41);
+    border-width: 3.5px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+#contact .details form .submit input
+{
+    padding:20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    background-color: rgb(41, 215, 38);
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+
+}
+
+#contact .Socials h1
+{
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contact .Socials .social_logo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact .Socials .social_logo .profile h3 a
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 90px;
+    padding: 20px;
+    padding-bottom: 70px;
+    font-family: 'Quicksand', sans-serif;
+}
