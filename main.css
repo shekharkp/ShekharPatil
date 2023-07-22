@@ -14,7 +14,6 @@ font-family: 'Quicksand', sans-serif;
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -36,8 +35,6 @@ font-family: 'Quicksand', sans-serif;
     list-style: none;
     margin-right: 300px;
     margin-top: 0px;
-
-  
 }
 .navbar ul li
 {
@@ -84,7 +81,7 @@ font-family: 'Quicksand', sans-serif;
     position: absolute;
     top: 0;
     height: 800px;
-    width: 100%;
+    width: 1500px;
     opacity: 30%;
     transition: 1s;
 }
@@ -92,7 +89,7 @@ font-family: 'Quicksand', sans-serif;
 #main_profile:hover
 {
     height: 820px;
-    width: 103%;
+    width: 1520px;
 }
 
 #main_image
@@ -145,10 +142,8 @@ font-family: 'Quicksand', sans-serif;
 /*About me*/
 
 #aboutme
-{
-    display: flex;
+{   display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -174,7 +169,7 @@ font-family: 'Quicksand', sans-serif;
 #aboutme .parent img
 {
     height: 550px;
-    width: 500px;
+    width: 450px;
     opacity: 70%;
     margin: 20px;
     padding-right: 10%;
@@ -185,7 +180,7 @@ font-family: 'Quicksand', sans-serif;
 #aboutme .parent img:hover
 {
     height: 580px;
-    width : 530px;
+    width : 480px;
 }
 
 
@@ -498,3 +493,4 @@ font-family: 'Quicksand', sans-serif;
     padding-bottom: 70px;
     font-family: 'Quicksand', sans-serif;
 }
+

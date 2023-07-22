@@ -1,0 +1,235 @@
+
+/* Navbar */
+.navbar
+{
+  justify-content: center;
+  padding-bottom: 2px;
+  background-color:rgba(89, 183, 255, 0.2);
+}
+.navbar ul
+{
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.navbar ul li
+{
+   font-size: 15px;
+}
+
+.navbar ul li a:active
+{
+    font-size: 17px;
+
+}
+
+
+/*Profile*/
+
+#Profile 
+{
+    align-items:center;
+    flex-direction: column;
+    height: 500px;
+}
+
+#main_profile
+{   
+    opacity: 0%;
+    width: 100%;
+}
+
+
+
+#main_image
+{
+   
+    width: 210px;
+    height: 300px;
+
+}
+
+#Profile .name h2
+{
+    font-size: 20px;
+}
+#Profile .name h1
+{
+    font-size: 50px;
+}
+
+#Profile .name:hover h1
+{
+    font-size: 55px;
+}
+
+#Profile .name #surname
+{
+    font-size: 50px;
+}
+
+/*About me*/
+
+#aboutme h1
+{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#aboutme .parent
+{
+    flex-direction: column;
+}
+#aboutme .parent img
+{
+    height: 260px;
+    width: 200px;
+}
+#aboutme .parent img:hover
+{
+    height: 270px;
+    width : 210px;
+}
+
+#aboutme .parent .section
+{
+    color: cornflowerblue;
+    height: 300px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+#aboutme .parent .section h3
+{
+    font-size: 15px;
+}
+
+#aboutme .parent .section:hover h3
+{
+    font-size: 16px;
+}
+
+/*Projects*/
+
+#Projects h1
+{
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#Projects .Project .astr
+{
+    height: 200px;
+    width: 200px; 
+}
+
+
+#Projects .Project .card1
+{
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 25px; 
+}
+
+#Projects .Project .card1 img{
+    height: 140px;
+    width: calc(100% - 90px);
+    margin-bottom: 0px;
+}
+
+#Projects .Project .card1:hover img
+{
+
+    height: 120px !important;
+    width: 220px !important;
+
+}
+
+#Projects .Project .card1 h1
+{
+    font-size: 15px;
+}
+
+#Projects .Project .card2
+{
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#Projects .Project .card2 img{
+    height: 140px;
+    width: calc(100% - 90px);
+    margin-bottom: 0px;
+}
+
+#Projects .Project .card2:hover img
+{
+
+    height: 120px !important;
+    width: 220px !important;
+
+}
+
+#Projects .Project .card2 h1
+{
+    font-size: 15px;
+}
+
+#Projects .Project .spaceship
+{
+    height: 200px;
+    width: 200px;
+}
+
+/*Contact*/
+
+#contact h1
+{  
+    font-size: 25px;;
+}
+
+#contact .detail
+{
+    height: 200px;
+    width: 300px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact h1
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#contact .details form
+{
+    margin-bottom: 15px;;
+}
+
+  
+#contact .details form .submit input
+{
+    padding:10px;
+    margin-top : 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#contact .Socials h1
+{
+    font-size: 25px;;
+    
+}
+
+#contact .Socials .social_logo .profile h3 a
+{
+    font-size: 15px;;
+}
+
+
+
