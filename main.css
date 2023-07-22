@@ -186,7 +186,7 @@ font-family: 'Quicksand', sans-serif;
 
 #aboutme .parent .section
 {
-    color: cornflowerblue;
+    color: rgb(168, 196, 248);
     height: 550px;
     width: 850px;
     background-color: rgb(2, 8, 26);
@@ -323,7 +323,7 @@ font-family: 'Quicksand', sans-serif;
 
 #Projects .Project .card1 h3
 {
-    color: cornflowerblue;
+    color: rgb(168, 196, 248);
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -371,7 +371,7 @@ font-family: 'Quicksand', sans-serif;
 
 #Projects .Project .card2 h3
 {
-    color: cornflowerblue;
+    color: rgb(168, 196, 248);
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
