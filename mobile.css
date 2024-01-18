@@ -120,8 +120,8 @@
 }
 #Projects .Project .astr
 {
-    height: 200px;
-    width: 200px; 
+    height: 0px;
+    width: 0px; 
 }
 
 
@@ -157,7 +157,7 @@
     height: 500px;
     width: 100%;
     top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
     
 }
 
@@ -180,17 +180,46 @@
     font-size: 15px;
 }
 
+/*card3*/
+#Projects .Project .card3
+{
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#Projects .Project .card3 img{
+    height: 140px;
+    width: calc(100% - 90px);
+    margin-bottom: 0px;
+}
+
+#Projects .Project .card3:hover img
+{
+
+    height: 120px !important;
+    width: 220px !important;
+
+}
+
+#Projects .Project .card3 h1
+{
+    font-size: 15px;
+}
+
 #Projects .Project .spaceship
 {
-    height: 200px;
-    width: 200px;
+    height: 0px;
+    width: 0px;
 }
 
 /*Contact*/
 
 #contact h1
 {  
-    font-size: 25px;;
+    font-size: 25px;
 }
 
 #contact .detail

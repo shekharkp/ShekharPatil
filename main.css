@@ -166,22 +166,6 @@ font-family: 'Quicksand', sans-serif;
     align-items: center;
        
 }
-#aboutme .parent img
-{
-    height: 550px;
-    width: 450px;
-    opacity: 70%;
-    margin: 20px;
-    padding-right: 10%;
-    margin-bottom: 60px;
-    border-radius: 10px;
-    transition: 1s;
-}
-#aboutme .parent img:hover
-{
-    height: 580px;
-    width : 480px;
-}
 
 
 #aboutme .parent .section
@@ -190,7 +174,7 @@ font-family: 'Quicksand', sans-serif;
     height: 550px;
     width: 850px;
     background-color: rgb(2, 8, 26);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +267,7 @@ font-family: 'Quicksand', sans-serif;
     height: 520px;
     width: 700px;
     background-color: rgb(2, 8, 26);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -335,7 +319,7 @@ font-family: 'Quicksand', sans-serif;
     height: 520px;
     width: 700px;
     background-color: rgb(2, 8, 26);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,6 +354,56 @@ font-family: 'Quicksand', sans-serif;
 }
 
 #Projects .Project .card2 h3
+{
+    color: rgb(168, 196, 248);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*card 3*/
+
+#Projects .Project .card3
+{
+    height: 520px;
+    width: 700px;
+    background-color: rgb(2, 8, 26);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#Projects .Project .card3 img{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+#Projects .Project .card3:hover img
+{
+    height: 220px !important;
+    width: 370px !important;
+}
+
+#Projects .Project .card3 h1
+{
+    font-size: 30px;
+    color: rgb(149, 181, 240);
+    margin-bottom: 20px;
+}
+
+#Projects .Project .card3 h3
 {
     color: rgb(168, 196, 248);
     text-align: center;
