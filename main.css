@@ -226,40 +226,7 @@ font-family: 'Quicksand', sans-serif;
     margin-top: 30px;
     margin-bottom: 60px;
     font-family: 'Allerta Stencil', sans-serif;
-    
 }
-#Projects .Project .astr
-{
-    height: 400px;
-    width: 400px; 
-    animation: astranim 3s infinite;
-}
-
-#Projects .Project .spaceship
-{
-    height: 400px;
-    width: 400px;
-    animation: astranim 3s infinite;
-}
-
-
-@keyframes astranim
-{
-    0%{
-     
-      transform: translateY(0px);
-    }
-    50%
-    {
-        
-        transform: translateY(-20px);
-    }
-    100%
-    {
-        transform: translateY(0px);
-    }
-}
-
 
 
 #Projects .Project .card1
@@ -306,104 +273,6 @@ font-family: 'Quicksand', sans-serif;
 }
 
 #Projects .Project .card1 h3
-{
-    color: rgb(168, 196, 248);
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#Projects .Project .card2
-{
-    height: 520px;
-    width: 700px;
-    background-color: rgb(2, 8, 26);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: flex-end;
-    flex-wrap: wrap;
-    top: 50px;
-    margin-bottom: 50px;
-    
-}
-
-#Projects .Project .card2 img{
-    height: 200px;
-    width: 350px;
-    position: relative;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    transition: 1s;
-}
-
-#Projects .Project .card2:hover img
-{
-    height: 220px !important;
-    width: 370px !important;
-}
-
-#Projects .Project .card2 h1
-{
-    font-size: 30px;
-    color: rgb(149, 181, 240);
-    margin-bottom: 20px;
-}
-
-#Projects .Project .card2 h3
-{
-    color: rgb(168, 196, 248);
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-/*card 3*/
-
-#Projects .Project .card3
-{
-    height: 520px;
-    width: 700px;
-    background-color: rgb(2, 8, 26);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: flex-start;
-    flex-wrap: wrap;
-    top: 50px;
-    margin-bottom: 50px;
-    
-}
-
-#Projects .Project .card3 img{
-    height: 200px;
-    width: 350px;
-    position: relative;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    transition: 1s;
-}
-
-#Projects .Project .card3:hover img
-{
-    height: 220px !important;
-    width: 370px !important;
-}
-
-#Projects .Project .card3 h1
-{
-    font-size: 30px;
-    color: rgb(149, 181, 240);
-    margin-bottom: 20px;
-}
-
-#Projects .Project .card3 h3
 {
     color: rgb(168, 196, 248);
     text-align: center;
